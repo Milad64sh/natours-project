@@ -32,6 +32,7 @@
   &--green {
     background-color: $color-primary;
     color: $color-white;
+    backface-visibility: hidden;
     &::after {
       background-color: $color-primary;
     }
